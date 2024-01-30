@@ -1,0 +1,7 @@
+name=[]
+n=int(input("Enter the no of students:"))
+for i in range(n):
+    names=input("Enter the name of"+str(i+1)+"th student:")
+    name.append(names)
+name.sort()
+print("Names of students in alphabetical order are:\n",name)
