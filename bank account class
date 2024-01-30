@@ -1,0 +1,19 @@
+class account:
+    def __init__(self):
+        self.balance=0
+        print("Welcome to deposit and withdrawal machine!!!!")
+    def deposit(self):
+        amount=int(input("Enter the amount to deposit:"))
+        self.balance+=amount
+    def withdraw(self):
+        amount=float(input("Enter the amount to withdraw:"))
+        if(self.balance>amount):
+            self.balance-=amount  
+        else:
+            print("Insufficient balance!!!!")
+    def display(self):
+        print("Available balance is :",self.balance)
+obj=account()
+obj.deposit()
+obj.withdraw()
+obj.display()
