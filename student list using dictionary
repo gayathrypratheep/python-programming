@@ -1,5 +1,4 @@
 student={}
-ls=[]
 n=int(input("Enter no of students:"))
 for i in range(n):
     name=input("Enter name:")
