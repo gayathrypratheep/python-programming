@@ -1,0 +1,9 @@
+student={}
+ls=[]
+n=int(input("Enter no of students:"))
+for i in range(n):
+    name=input("Enter name:")
+    age=input("Enter age of "+ name+":")
+    grade=input("Enter grade of "+ name+":")
+    student[name]=(age,grade)
+print(student)
