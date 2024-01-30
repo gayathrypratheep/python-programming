@@ -1,0 +1,5 @@
+string=input("Enter a string:")
+first=string[0]
+last=string[-1]
+new=last+string[1:-1]+first
+print("New string is :",new)
