@@ -1,0 +1,13 @@
+student={}
+n=int(input("Enter no of students:"))
+for i in range(n):
+    name=input("Enter name:")
+    age=input("Enter age of "+ name+":")
+    grade=input("Enter grade of "+ name+":")
+    student[name]=(age,grade)
+ls=list(student.items())
+ls.sort()
+print("student list in ascending order is:",dict(ls))
+ls=list(student.items())
+ls.sort(reverse=True)
+print("student list in descending order is:",dict(ls))
