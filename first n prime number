@@ -1,0 +1,16 @@
+n=int(input("Enter the number to print prime number:"))
+i=2
+count=1 
+while count<=n:
+    flag=0
+    j=2
+    while j<=(i-1):
+        if(i%j)==0:
+            flag=1 
+            break
+        j=j+1 
+    if flag==0:
+        print(i)
+        count+=1 
+    i+=1 
+        
