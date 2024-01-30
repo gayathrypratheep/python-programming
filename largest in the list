@@ -1,0 +1,12 @@
+a=[]
+n=int(input("Enter the no of list items:"))
+for i in range(0,n):
+    item=input("Enter "+str(i+1)+"element :")
+    a.append(item)
+temp=a[0]
+large=len(temp)
+for i in a:
+    if len(i)>large:
+        large=len(i)
+        temp=i
+print("Largest word in the list is ",temp,"and its length is :",large)
