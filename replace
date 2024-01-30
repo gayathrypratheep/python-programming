@@ -1,0 +1,6 @@
+string=input("Enter the string:")
+first=string[0]
+new=first+string[1:].replace(first,"$")
+print("New string is :",new)
+        
+    
