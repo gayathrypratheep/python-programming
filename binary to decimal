@@ -1,0 +1,9 @@
+binary=int(input("Enter the binary number:"))
+decimal=0
+st=str(binary)
+rev=st[::-1]
+j=1
+for i in st:
+    decimal=decimal+(int(i)*j)
+    j*=2
+print("Decimal of ",binary,"is:",decimal)
