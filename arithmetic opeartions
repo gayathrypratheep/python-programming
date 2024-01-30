@@ -1,0 +1,21 @@
+n1=float(input("Enter the 1st number:"))
+n2=float(input("Enter the 2nd number:"))
+print("operations are:\n+ for addition\n- for subtraction\n* for multiplication\n/ for division\n// for floor function\n** for exponent\n% for modulo")
+opeartion=input("Enter the opeartion:")
+if opeartion=="+":
+    result=n1+n2
+elif opeartion=="-":
+    result=n1-n2
+elif opeartion=="*":
+    result=n1*n2
+elif opeartion=="/":
+    result=n1/n2
+elif opeartion=="%":
+    result=n1%n2
+elif opeartion=="**":
+    result=n1**n2
+elif opeartion=="//":
+    result=n1//n2
+else:
+    print("Invalid operation!!!")
+print(n1,opeartion,n2,"=",result)
